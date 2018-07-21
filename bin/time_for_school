@@ -26,3 +26,11 @@ jim.last_name = "Booboo"
 jason = Student.new
 steve.first_name = "Jason"
 steve.last_name = "Waterchicken"
+
+2.times do
+some_knowledge = avi.teach
+jason.learn(some_knowledge)
+puts "Jason just learned this important knowledge: '#{steve.knowledge.last}' from Avi"
+end
+
+
