@@ -22,3 +22,7 @@ end
 jim = User.new
 jim.first_name = "Jim"
 jim.last_name = "Booboo"
+
+jason = Student.new
+steve.first_name = "Jason"
+steve.last_name = "Waterchicken"
