@@ -30,5 +30,5 @@ steve.last_name = "Waterchicken"
 2.times do
 some_knowledge = avi.teach
 jason.learn(some_knowledge)
-puts "Jason just learned this important knowledge: '#{jason.knowledge.last}' from Avi"
+puts "#{jason.first_name} #{jason.last_name} just learned this important knowledge: '#{jason.knowledge.last}' from Avi"
 end
