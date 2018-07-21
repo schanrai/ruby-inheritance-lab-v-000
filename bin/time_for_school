@@ -32,3 +32,6 @@ some_knowledge = avi.teach
 jason.learn(some_knowledge)
 puts "#{jason.first_name} #{jason.last_name} just learned this important knowledge: '#{jason.knowledge.last}' from Avi"
 end
+
+puts steve.knowledge
+puts jason.knowledge
