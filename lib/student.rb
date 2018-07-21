@@ -5,3 +5,5 @@ def initialize
   binding.pry
   @knowledge = []
 end
+
+end
