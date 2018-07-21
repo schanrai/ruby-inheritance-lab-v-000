@@ -12,9 +12,9 @@ avi = Teacher.new
 avi.first_name = "Avi"
 avi.last_name = "Flombaum"
 
-5 times do
-some_knowledge = avi.teach
 
+5.times do
+some_knowledge = avi.teach
 steve.learn(some_knowledge)
 puts "Steve just learned this important knowledge: '#{steve.knowledge.last}' from Avi"
 end
