@@ -1,9 +1,9 @@
 class Student < User
   attr_accessor :knowledge
 
-def initialize
-  binding.pry
-  @knowledge = []
-end
+  def initialize
+    #binding.pry
+    @knowledge = []
+  end
 
 end
